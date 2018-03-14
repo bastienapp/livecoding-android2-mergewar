@@ -3,4 +3,6 @@
     <string name="new_app_name">Merge War</string>
     <string name="this_is_merge_war">This is Merge War!</string>
     <string name="this_is_the_warzone">This is the warzone</string>
+    <string name="login">Login</string>
+    <string name="send">Send</string>
 </resources>
