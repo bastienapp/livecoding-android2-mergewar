@@ -87,8 +87,8 @@ Récupérer les modifications archivées d'une branche du *repository* distant v
 > git pull origin branch_name
 
 Fusionner les modifications de *branch_to_merge* vers *master*
-> git checkout master
-> git merge origin branch_to_merge
+> * git checkout master
+> * git merge branch_to_merge
 
 Les conflits sont signalés avec ces délimiteurs :
 > * "<<<<<<<" : code de la branche d’origine
