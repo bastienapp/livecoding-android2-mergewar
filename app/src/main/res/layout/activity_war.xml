@@ -4,21 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="fr.wcs.mergewar.MainActivity">
+    tools:context="fr.wcs.mergewar.WarActivity">
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/this_is_merge_war"
-        tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="118dp" />
-
-    <Button
-        android:id="@+id/button_warzone"
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/this_is_the_warzone"
-        tools:layout_editor_absoluteX="129dp"
-        tools:layout_editor_absoluteY="183dp" />
+        tools:layout_editor_absoluteX="171dp"
+        tools:layout_editor_absoluteY="222dp" />
 </android.support.constraint.ConstraintLayout>

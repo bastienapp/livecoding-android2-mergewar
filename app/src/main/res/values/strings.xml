@@ -2,4 +2,5 @@
     <string name="app_name">MergeWar</string>
     <string name="new_app_name">Merge War</string>
     <string name="this_is_merge_war">This is Merge War!</string>
+    <string name="this_is_the_warzone">This is the warzone</string>
 </resources>
