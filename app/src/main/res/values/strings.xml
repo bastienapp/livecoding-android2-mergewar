@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MergeWar</string>
+    <string name="this_is_the_war_zone">This is the War Zone!</string>
+    <string name="war_zone">War Zone</string>
+</resources>
