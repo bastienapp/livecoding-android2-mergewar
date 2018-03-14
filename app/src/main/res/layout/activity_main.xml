@@ -6,10 +6,15 @@
     android:layout_height="match_parent"
     tools:context="fr.wcs.mergewar.MainActivity">
 
-    <TextView
-        android:id="@+id/textView"
+    <Button
+        android:id="@+id/buttonPeace"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="@string/peace_zone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
         android:text="@string/this_is_merge_war"
         tools:layout_editor_absoluteX="112dp"
         tools:layout_editor_absoluteY="118dp" />

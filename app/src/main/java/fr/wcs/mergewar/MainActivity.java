@@ -13,6 +13,18 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Button button = findViewById(R.id.buttonPeace);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,PeaceActivity.class);
+                MainActivity.this.startActivity(intent);
+            }
+        });
+
+
+
+
         Button warzone = findViewById(R.id.button_warzone);
         warzone.setOnClickListener(new View.OnClickListener() {
             @Override
