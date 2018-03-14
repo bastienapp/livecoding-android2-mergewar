@@ -15,4 +15,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+        android:text="@string/this_is_merge_war"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="118dp" />
+
+    <Button
+        android:id="@+id/button_warzone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/this_is_the_warzone"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="183dp" />
 </android.support.constraint.ConstraintLayout>

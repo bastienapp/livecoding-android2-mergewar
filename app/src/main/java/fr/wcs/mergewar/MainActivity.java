@@ -24,5 +24,14 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
+        Button warzone = findViewById(R.id.button_warzone);
+        warzone.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, WarActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
